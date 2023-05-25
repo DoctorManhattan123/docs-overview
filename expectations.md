@@ -11,37 +11,35 @@ Copy heading and find the first link.
 
 ## React 
 
+[Read Learn Docs](react.dev/learn)
+
 [React Dev Docs](https://react.dev/references/react)
 
 Hooks:
-* useCallback
-* useContext
-* useEffect
-* useMemo
-* useReducer
-* useRef
-* useState
-* useTransition (ggf.)
+* [useCallback](https://react.dev/reference/react/useCallback)
+* [useContext](https://react.dev/reference/react/useContext)
+* [useEffect](https://react.dev/reference/react/useEffect)
+* [useMemo](https://react.dev/reference/react/useMemo)
+* [useReducer](https://react.dev/reference/react/useReducer)
+* [useRef](https://react.dev/reference/react/useRef)
+* [useState](https://react.dev/reference/react/useState)
+* [useTransition](https://react.dev/reference/react/useTransition)
 
-Do's and Dont's
-
-Do not use React.FC
-Do not use interfaces
+[Do not use React.FC](https://github.com/backstage/backstage/blob/master/docs/architecture-decisions/adr006-avoid-react-fc.md)
+Do not use `interface`, use `type` instead
 Do not use enums, use zod enums instead.
 
 Components:
-* Fragment
-* Do not know about Strict Mode
-* createContext
-* forwardRef
-* memo
+* [Fragment](https://react.dev/reference/react/Fragment)
+* [Do not know about Strict Mode](https://react.dev/reference/react/StrictMode)
 
 APIs:
-* createPortal
+* [createContext](https://react.dev/reference/react/createContext)
+* [forwardRef](https://react.dev/reference/react/forwardRef)
+* [memo](https://react.dev/reference/react/memo)
+* [createPortal](https://react.dev/reference/react-dom/createPortal)
 
 [You might not need an effect](react.dev/learn/you-might-not-need-and-effect)
-
-[Read Learn Docs](react.dev/learn)
 
 ## NextJS
 
@@ -49,28 +47,28 @@ Following website: [nextjs.org/docs/app](https://nextjs.org/docs/app)
 nextjs.org
 
 1. Building your application
-* Defining Routes
-* Page and Layouts
-* Linking and Layouts
-* Route Groups
-* Dynamic Routes
-* Error Handling
-* Middleware
+* [Defining Routes](https://nextjs.org/docs/app/building-your-application/routing/defining-routes)
+* [Page and Layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
+* [Linking and Navigating](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating)
+* [Route Groups](https://nextjs.org/docs/app/building-your-application/routing/route-groups)
+* [Dynamic Routes](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)
+* [Error Handling](https://nextjs.org/docs/app/building-your-application/routing/error-handling)
+* [Middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
 
 2. Rendering
-* Static and Dynamic
+* [Static and Dynamic](https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic-rendering)
 
-3. Data Fetching, read all
+3. [Data Fetching](https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic-rendering), read all
 
-4. Optimizing, Images, Fonts, Metadata, Static Assets, Layz Loading
+4. [Optimizing](https://nextjs.org/docs/app/building-your-application/optimizing): Images, Fonts, Metadata, Static Assets, Layz Loading
 
-5. File Conventions
+5. [File Conventions](https://nextjs.org/docs/app/api-reference/file-conventions)
 
-6. Functions (at least a small overview)
+6. [Functions](https://nextjs.org/docs/app/api-reference/functions) (at least a small overview)
 
 ## Libraries/Packages
 
-Zod - Schema Validation
-TailwindCSS - Work with tailwind docs, how to be responsive, Safelisting classes
-Vitest - docs and write 2-3 tests, why are tests important, testing pyramide
+[Zod](https://github.com/colinhacks/zod) -  TypeScript-first schema validation with static type inference 
+[TailwindCSS](https://tailwindcss.com/) - Work with tailwind docs, how to be responsive, Safelisting classes
+[Vitest](https://vitest.dev/) - docs and write 2-3 tests, why are tests important, testing pyramide
 
