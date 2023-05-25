@@ -15,7 +15,8 @@ Copy heading and find the first link.
 
 [React Dev Docs](https://react.dev/references/react)
 
-Hooks:
+### Hooks:
+
 * [useCallback](https://react.dev/reference/react/useCallback)
 * [useContext](https://react.dev/reference/react/useContext)
 * [useEffect](https://react.dev/reference/react/useEffect)
@@ -25,21 +26,25 @@ Hooks:
 * [useState](https://react.dev/reference/react/useState)
 * [useTransition](https://react.dev/reference/react/useTransition)
 
-[Do not use React.FC](https://github.com/backstage/backstage/blob/master/docs/architecture-decisions/adr006-avoid-react-fc.md)
-Do not use `interface`, use `type` instead
-Do not use enums, use zod enums instead.
 
-Components:
+
+### Components:
 * [Fragment](https://react.dev/reference/react/Fragment)
 * [Do not know about Strict Mode](https://react.dev/reference/react/StrictMode)
 
-APIs:
+### APIs:
 * [createContext](https://react.dev/reference/react/createContext)
 * [forwardRef](https://react.dev/reference/react/forwardRef)
 * [memo](https://react.dev/reference/react/memo)
 * [createPortal](https://react.dev/reference/react-dom/createPortal)
 
 [You might not need an effect](react.dev/learn/you-might-not-need-and-effect)
+
+### Do's and Dont's
+
+* [Do not use React.FC](https://github.com/backstage/backstage/blob/master/docs/architecture-decisions/adr006-avoid-react-fc.md)
+* Do not use `interface`, use `type` instead
+* Do not use enums, use zod enums instead.
 
 ## NextJS
 
